@@ -3,33 +3,24 @@
 <head>
 <meta charset="UTF-8">
 <title>Математика 5–9 класс</title>
-
-<style>
-body {
-font-family: Arial;
-background-color: #f2f2f2;
-text-align: center;
-padding-top: 50px;
-}
-button {
-padding: 15px 25px;
-font-size: 18px;
-margin: 10px;
-cursor: pointer;
-}
-</style>
-
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1>📘 Математика 5–9 класс</h1>
-<p>Выбери класс</p>
+<h1>📘 Математика: просто и понятно</h1>
 
-<button>5 класс</button>
-<button>6 класс</button>
-<button>7 класс</button>
-<button>8 класс</button>
-<button>9 класс</button>
+<h2>Выбери класс</h2>
+<div class="menu">
+<button onclick="selectClass(5)">5 класс</button>
+<button onclick="selectClass(6)">6 класс</button>
+<button onclick="selectClass(7)">7 класс</button>
+<button onclick="selectClass(8)">8 класс</button>
+<button onclick="selectClass(9)">9 класс</button>
+</div>
 
+<div id="subjects"></div>
+<div id="topics"></div>
+
+<script src="script.js"></script>
 </body>
 </html>
