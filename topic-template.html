@@ -3,55 +3,51 @@
 <head>
 <meta charset="UTF-8">
 <title>Тема</title>
-<style>
-body {
-font-family: Arial;
-padding: 20px;
-}
-nav a {
-font-size: 22px;
-margin-right: 15px;
-text-decoration: none;
-}
-.section {
-margin-top: 40px;
-}
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<h1>📘 Название темы</h1>
+<h1>📐 Название темы</h1>
 
-<!-- МАЯЧКИ -->
-<nav>
-<a href="#errors">⚠️</a>
-<a href="#learn">📌</a>
-<a href="#cheat">📄</a>
-<a href="#examples">✏️</a>
-</nav>
-
-<div id="learn" class="section">
-<h2>📌 Нужно выучить</h2>
-<p>Здесь ты пишешь основную теорию.</p>
+<!-- Маячки-переходы -->
+<div class="anchors">
+<a href="#mistakes">⚠️ Частые ошибки</a>
+<a href="#mustknow">📌 Нужно выучить</a>
+<a href="#cheat">📄 Шпаргалка</a>
+<a href="#examples">✏️ Примеры</a>
 </div>
 
-<div id="errors" class="section">
-<h2>⚠️ Частые ошибки</h2>
-<p>Например: забывают менять знак.</p>
-</div>
+<hr>
 
-<div id="examples" class="section">
-<h2>✏️ Примеры</h2>
-<p>Пример 1: …</p>
-<p>Пример 2: …</p>
-</div>
+<h2 id="theory">📖 Основное объяснение темы</h2>
+<p>
+Здесь пишется полное объяснение темы простыми словами.
+</p>
 
-<div id="cheat" class="section">
-<h2>📄 Шпаргалка</h2>
-<p>Кратко и понятно.</p>
-<a href="cheat.html">Открыть версию для печати</a>
-</div>
+<h2 id="mustknow">📌 Нужно выучить</h2>
+<ul>
+<li>Формула 1 …</li>
+<li>Определение …</li>
+</ul>
+
+<h2 id="examples">✏️ Примеры</h2>
+<p>
+Пример 1: …
+<br>
+Пример 2: …
+</p>
+
+<h2 id="mistakes">⚠️ Частые ошибки</h2>
+<ul>
+<li>Путают …</li>
+<li>Забывают …</li>
+</ul>
+
+<h2 id="cheat">📄 Шпаргалка</h2>
+<p>
+Краткое объяснение + формулы.
+<a href="cheat-print.html" target="_blank">🖨️ Версия для печати</a>
+</p>
 
 </body>
 </html>
